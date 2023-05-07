@@ -1,7 +1,7 @@
 # BankingSystem
 This is a Python program for a simple banking system that allows users to perform basic banking functions such as deposit, withdrawal, check balance, and online banking setup.
 
-# How to Use the Program
+## How to Use the Program
 
 1. Create a BankAccount object by defining the user's name, age, and address.
 2. Set up online banking by calling online_banking_setup() function, which will prompt the user to enter their username and password.
@@ -9,10 +9,10 @@ This is a Python program for a simple banking system that allows users to perfor
 4. Once logged in, the user can perform banking functions such as deposit, withdrawal, check balance, add a new contact, view the contact list, send money, and log out.
 5. When done, the user can log out of the account by calling the logout() function.
 
-# Functions
+## Functions
 Here are the details of the functions available in this program:
 
-# '__init__(self, name: str, age: int, address: str) -> None'
+### '__init__(self, name: str, age: int, address: str) -> None'
 This is the constructor method that initializes the object with the user's name, age, and address. It also sets the user's balance to zero and creates variables to store the user's login credentials, online banking setup status, and contact list.
 
 # 'online_banking_setup(self)'
